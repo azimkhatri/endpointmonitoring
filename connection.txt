@@ -1,0 +1,4 @@
+google.com,443,5,5,10
+abc.com,443,5,5,20
+rediff.com,443,5,5,30
+ddrrcc.com,443,1,1,1
