@@ -33,7 +33,7 @@ finally:
 
 for line in lines:
     host,port,retry,delay,timeout = line.strip().split(",")
-    print (host, "||" , port , "||" , retry, "||" , delay, "||" , timeout)
+    # print (host, "||" , port , "||" , retry, "||" , delay, "||" , timeout)
     if checkHost(host, int(port), int(retry), int(delay), int(timeout)):
         print(host + " is UP")
     else:
